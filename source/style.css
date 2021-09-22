@@ -40,12 +40,9 @@ body {
   line-height: 16px;
   text-align: center;
 }
+/*Cellular_Connection-path */
 
 .cellular_con {
-  /*Cellular_Connection-path */
-
-  /*background-image: url("Cellular_Connection-path.png");*/
-
   position: absolute;
   width: 3px;
   height: 8.33px;
@@ -53,12 +50,8 @@ body {
   top: 20px;
   background: #000;
 }
-
+/* Wifi-path */
 .wifi_path {
-  /* Wifi-path */
-
-  /*background-image: url("Wifi-path.png");*/
-
   position: absolute;
   width: 4.63px;
   height: 3.37px;
@@ -66,12 +59,9 @@ body {
   top: 24.92px;
   background: #000;
 }
+/* Capacity */
 
 .capacity {
-  /* Capacity */
-
-  /* background-image: url("Capacity.png");*/
-
   position: absolute;
   width: 18px;
   height: 7.33px;
@@ -90,46 +80,34 @@ body {
   right: 35px;
   top: 35px;
 }
+/* Vector */
 
 .humb {
-  /* Vector */
-
   position: absolute;
   left: 16.67%;
   right: 16.67%;
   top: 29.17%;
   bottom: 70.83%;
-
-  /* Base / 300 - Tertiary */
-
   border: 2px solid #067bf8;
 }
+/* Vector */
 
 .humb1 {
-  /* Vector */
-
   position: absolute;
   left: 16.67%;
   right: 16.67%;
   top: 50%;
   bottom: 50%;
-
-  /* Base / 300 - Tertiary */
-
   border: 2px solid #077efd;
 }
+/* Vector */
 
 .humb2 {
-  /* Vector */
-
   position: absolute;
   left: 16.67%;
   right: 16.67%;
   top: 70.83%;
   bottom: 29.17%;
-
-  /* Base / 300 - Tertiary */
-
   border: 2px solid #057af8;
 }
 
@@ -167,6 +145,7 @@ body {
   top: 114px;
 
   /* Header / 2 */
+
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
@@ -216,10 +195,9 @@ body {
   flex-wrap: wrap;
   padding-left: 1em;
 }
+/* Ellipse 3 */
 
 .ellipse3 {
-  /* Ellipse 3 */
-
   background-image: url("Ellipse3.png");
   position: absolute;
   width: 105px;
@@ -227,37 +205,34 @@ body {
   left: 400px;
   top: 152.24px;
 }
+/* Ellipse 11 */
 
 .ellipse11 {
-  /* Ellipse 11 */
-
+  background: #6070ff;
   background-image: url("Ellipse11.png");
   position: absolute;
   width: 38.5px;
   height: 19.25px;
   left: 16.04px;
   top: 115.47px;
-  background: #6070ff;
   transform: rotate(-156.88deg);
 }
+/* Ellipse 4 */
+/* Primary/B400 */
 
 .ellipse4 {
-  /* Ellipse 4 */
-
+  background: #6070ff;
   background-image: url("Ellipse4.png");
   position: absolute;
   width: 20px;
   height: 20px;
   left: 237px;
   top: 657.1px;
-  /* Primary/B400 */
-
-  background: #6070ff;
 }
+/* Rectangle 5 */
 
 .Rectangle5 {
-  /* Rectangle 5 */
-
+  background: #ebebff;
   background-image: url("Rectangle5.png");
   position: absolute;
   width: 68.06px;
@@ -267,13 +242,11 @@ body {
 
   /* Primary/B50 */
 
-  background: #ebebff;
   transform: rotate(23.34deg);
 }
+/* Rectangle 6 */
 
 .Rectangle6 {
-  /* Rectangle 6 */
-
   background-image: url("Rectangle6.png");
   position: absolute;
   width: 51.99px;
@@ -283,13 +256,12 @@ body {
 
   /* Primary/B50 */
 
-  background: #ebebff;
   transform: rotate(-46.14deg);
 }
+/* Rectangle 7 */
 
 .Rectangle7 {
-  /* Rectangle 7 */
-
+  background: #6070ff;
   background-image: url("Rectangle7.png");
   position: absolute;
   width: 26.46px;
@@ -299,13 +271,12 @@ body {
 
   /* Primary/B400 */
 
-  background: #6070ff;
   transform: matrix(0.76, 0.65, 0.65, -0.76, 0, 0);
 }
+/* Ellipse 5 */
 
 .ellipse5 {
-  /* Ellipse 5 */
-
+  background: #cbcdff;
   background-image: url("Ellipse5.png");
   position: absolute;
   width: 11px;
@@ -315,26 +286,23 @@ body {
 
   /* Primary/B100 */
 
-  background: #cbcdff;
   transform: rotate(52.97deg);
 }
+/* Ellipse 12 */
 
 .ellipse12 {
-  /* Ellipse 12 */
-
+  background: #6070ff;
   background-image: url("Ellipse12.png");
   position: absolute;
   width: 24.14px;
   height: 12.07px;
   left: 341.76px;
   top: 546.69px;
-  background: #6070ff;
   transform: rotate(-176.08deg);
 }
+/* Ellipse 13 */
 
 .ellipse13 {
-  /* Ellipse 13 */
-
   position: absolute;
   width: 30.1px;
   height: 30.1px;
@@ -343,10 +311,10 @@ body {
   background: #ebebff;
   transform: rotate(69.41deg);
 }
+/* Rectangle 4 */
 
 .Rectangle4 {
-  /* Rectangle 4 */
-
+  background: #ebebff;
   background-image: url("Rectangle4.png");
   position: absolute;
   width: 95.58px;
@@ -356,13 +324,14 @@ body {
 
   /* Primary/B50 */
 
-  background: #ebebff;
   transform: rotate(-30deg);
 }
+/* Ellipse 8 */
 
 .ellipse8 {
-  /* Ellipse 8 */
+  /* Neutrals/N0 */
 
+  background: #fff;
   background-image: url("Ellipse8.png");
   position: absolute;
   width: 15px;
@@ -370,29 +339,21 @@ body {
   left: 214px;
   top: 100px;
 
-  /* Neutrals/N0 */
-
-  background: #fff;
-
   /* Primary/B100 */
 
   border: 1px solid #cbcdff;
   box-sizing: border-box;
 }
+/* Ellipse 15 */
 
 .ellipse15 {
-  /* Ellipse 15 */
-
+  background: #fff;
   background-image: url("Ellipse15.png");
   position: absolute;
   width: 15px;
   height: 15px;
   left: 53px;
   top: 645px;
-
-  /* Neutrals/N0 */
-
-  background: #fff;
 
   /* Primary/B100 */
 
@@ -406,60 +367,54 @@ body {
   right: 80.56%;
   top: 300px;
 }
+/* Vector */
 
 .twitter {
-  /* Vector */
-
   position: absolute;
   left: 6.4%;
   right: 88.27%;
   top: 77.81%;
   bottom: 18.88%;
 }
+/* Vector */
 
 .linkedin {
-  /* Vector */
-
   position: absolute;
   left: 20.8%;
   right: 81.87%;
   top: 78.85%;
   bottom: 18.87%;
 }
+/* Vector */
 
 .linked {
-  /* Vector */
-
   position: absolute;
   left: 18.74%;
   right: 77.87%;
   top: 78.32%;
   bottom: 18.87%;
 }
+/* Vector */
 
 .medium {
-  /* Vector */
-
   position: absolute;
   left: 27.47%;
   right: 67.2%;
   top: 78.15%;
   bottom: 19.21%;
 }
+/* Vector */
 
 .github {
-  /* Vector */
-
   position: absolute;
   left: 38.13%;
   right: 57.07%;
   top: 77.81%;
   bottom: 18.87%;
 }
+/* Vector */
 
 .angellist {
-  /* Vector */
-
   position: absolute;
   left: 48%;
   right: 48.22%;
