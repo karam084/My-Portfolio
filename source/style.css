@@ -11,13 +11,13 @@
 body {
   /* Neutrals/N0 */
 
-  background: #ffffff;
+  background: #fff;
   background-image: url("header-background-mobile.svg");
   position: absolute;
   width: 375px;
   height: 718px;
-  left: 0px;
-  top: 0px;
+  left: 0.2px;
+  top: 0.2px;
 }
 
 /* Header styles */
@@ -91,7 +91,7 @@ body {
   left: 12px;
   top: 10px;
 
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -110,9 +110,9 @@ body {
   /* Inside Auto Layout */
 
   flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin: 0px 0px;
+  order: 1;
+  flex-grow: 1;
+  margin: 0.5px 0.5px;
 }
 
 .box {
@@ -139,7 +139,7 @@ body {
 
   /* Header / 2 */
 
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
@@ -157,9 +157,9 @@ body {
   /* Inside Auto Layout */
 
   flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin: 12px 0px;
+  order: 1;
+  flex-grow: 1;
+  margin: 12px 0.2px;
 }
 
 .my_details {
@@ -173,7 +173,7 @@ body {
 
   /* Body / 2 */
 
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -187,20 +187,20 @@ body {
 
   flex: none;
   order: 1;
-  flex-grow: 0;
-  margin: 12px 0px;
+  flex-grow: 1;
+  margin: 12px 0.2px;
 }
 
 .more_det {
   position: static;
   width: 200px;
   height: 24px;
-  left: 0px;
-  top: 0px;
+  left: 1px;
+  top: 1px;
 
   /* Body / 2 - Bolder */
 
-  font-family: Poppins;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -399,19 +399,8 @@ body {
   box-sizing: border-box;
 }
 
-li,
-h2 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 17px;
-  list-style: none;
-}
-
 .media_div {
   display: flex;
-  align-items: center;
-  justify-content: center;
   gap: 17px;
   list-style: none;
 }
