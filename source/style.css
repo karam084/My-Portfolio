@@ -1,0 +1,484 @@
+* {
+  padding: 1px;
+  margin: 5px;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+  font-style: normal;
+}
+
+/* Body properties */
+
+body {
+  /* Neutrals/N0 */
+
+  background: #fff;
+  background-image: url("header-background-mobile.svg");
+  position: absolute;
+  width: 375px;
+  height: 718px;
+  left: 0.2px;
+  top: 0.2px;
+}
+
+/* Header styles */
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  gap: 15px;
+  margin-left: 5em;
+}
+
+/* Hamburger button */
+
+.nav-elem {
+  position: absolute;
+  width: 50px;
+  height: 30.33px;
+  right: 35px;
+  top: 30px;
+}
+
+/* Vector */
+
+.humb {
+  position: absolute;
+  left: 16.67%;
+  right: 16.67%;
+  top: 29.17%;
+  bottom: 70.83%;
+
+  /* Base / 300 - Tertiary */
+
+  border: 2px solid #acb7c3;
+}
+
+/* Vector */
+
+.humb1 {
+  position: absolute;
+  left: 16.67%;
+  right: 16.67%;
+  top: 50%;
+  bottom: 50%;
+
+  /* Base / 300 - Tertiary */
+
+  border: 2px solid #acb7c3;
+}
+
+/* Vector */
+
+.humb2 {
+  position: absolute;
+  left: 16.67%;
+  right: 16.67%;
+  top: 70.83%;
+  bottom: 29.17%;
+
+  /* Base / 300 - Tertiary */
+
+  border: 2px solid #acb7c3;
+}
+
+.logo {
+  /* My Logo */
+
+  position: static;
+  width: 76px;
+  height: 20px;
+  left: 12px;
+  top: 10px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 20px;
+
+  /* identical to box height, or 111% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  /* Primary/B400 */
+
+  color: #6070ff;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+  margin: 0.5px 0.5px;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  padding: 135px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.my_name {
+  /* Primary Text */
+
+  position: static;
+  width: 250px;
+  height: 150px;
+  left: 24px;
+  top: 114px;
+
+  /* Header / 2 */
+
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+
+  /* or 130% */
+
+  display: flex;
+  align-items: center;
+
+  /* Neutrals/N800 */
+
+  color: #172b4d;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+  margin: 12px 0.2px;
+}
+
+.my_details {
+  /* Primary Text */
+
+  position: static;
+  width: 327px;
+  height: 60px;
+  left: 24px;
+  top: 290px;
+
+  /* Body / 2 */
+
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+
+  /* Neutrals/N600 */
+
+  color: #344563;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+  margin: 12px 0.2px;
+}
+
+.more_det {
+  position: static;
+  width: 200px;
+  height: 24px;
+  left: 1px;
+  top: 1px;
+
+  /* Body / 2 - Bolder */
+
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+
+  /* Primary/B300 */
+
+  color: #7f8cff;
+}
+
+.row {
+  position: absolute;
+  width: 300px;
+  height: 150.15px;
+  left: -34px;
+  top: 50px;
+}
+
+/* Ellipse 3 */
+
+.ellipse3 {
+  /* Primary/B400 */
+
+  background-image: url("Ellipse3.png");
+  position: absolute;
+  width: 105px;
+  height: 200px;
+  left: 400px;
+  top: 100px;
+}
+
+/* Ellipse 11 */
+
+.ellipse11 {
+  background: #6070ff;
+  background-image: url("Ellipse11.png");
+  position: absolute;
+  width: 38.5px;
+  height: 19.25px;
+  left: 16.04px;
+  top: 140.47px;
+  transform: rotate(-156.88deg);
+}
+
+/* Ellipse 4 */
+
+/* Primary/B400 */
+
+.ellipse4 {
+  background: #6070ff;
+  background-image: url("Ellipse4.png");
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 237px;
+  top: 657.1px;
+}
+
+/* Rectangle 5 */
+
+.Rectangle5 {
+  background: #ebebff;
+  background-image: url("Rectangle5.png");
+  position: absolute;
+  width: 68.06px;
+  height: 12.18px;
+  left: 191.82px;
+  top: 653px;
+
+  /* Primary/B50 */
+
+  transform: rotate(23.34deg);
+}
+
+/* Rectangle 6 */
+
+.Rectangle6 {
+  background-image: url("Rectangle6.png");
+  position: absolute;
+  width: 51.99px;
+  height: 9.3px;
+  left: 250px;
+  top: 25.49px;
+
+  /* Primary/B50 */
+
+  transform: rotate(-46.14deg);
+}
+
+/* Rectangle 7 */
+
+.Rectangle7 {
+  background: #6070ff;
+  background-image: url("Rectangle7.png");
+  position: absolute;
+  width: 26.46px;
+  height: 4.73px;
+  left: 127.18px;
+  top: 135.59px;
+
+  /* Primary/B400 */
+
+  transform: matrix(0.76, 0.65, 0.65, -0.76, 0, 0);
+}
+
+/* Ellipse 5 */
+
+.ellipse5 {
+  background: #cbcdff;
+  background-image: url("Ellipse5.png");
+  position: absolute;
+  width: 11px;
+  height: 10px;
+  left: 132.98px;
+  top: 140px;
+
+  /* Primary/B100 */
+
+  transform: rotate(52.97deg);
+}
+
+/* Ellipse 12 */
+
+.ellipse12 {
+  background: #6070ff;
+  background-image: url("Ellipse12.png");
+  position: absolute;
+  width: 24.14px;
+  height: 12.07px;
+  left: 341.76px;
+  top: 546.69px;
+  transform: rotate(-176.08deg);
+}
+
+/* Ellipse 13 */
+
+.ellipse13 {
+  position: absolute;
+  width: 30.1px;
+  height: 30.1px;
+  left: 332.18px;
+  top: 540.44px;
+  background: #ebebff;
+  transform: rotate(69.41deg);
+}
+
+/* Rectangle 4 */
+
+.Rectangle4 {
+  background: #ebebff;
+  background-image: url("Rectangle4.png");
+  position: absolute;
+  width: 95.58px;
+  height: 22.02px;
+  left: 400px;
+  top: 100px;
+
+  /* Primary/B50 */
+
+  transform: rotate(-30deg);
+}
+
+/* Ellipse 8 */
+
+.ellipse8 {
+  /* Neutrals/N0 */
+
+  background: #fff;
+  background-image: url("Ellipse8.png");
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  left: 214px;
+  top: 80px;
+
+  /* Primary/B100 */
+
+  border: 1px solid #cbcdff;
+  box-sizing: border-box;
+}
+
+/* Ellipse 15 */
+
+.ellipse15 {
+  background: #fff;
+  background-image: url("Ellipse15.png");
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  left: 53px;
+  top: 645px;
+
+  /* Primary/B100 */
+
+  border: 1px solid #cbcdff;
+  box-sizing: border-box;
+}
+
+.media_div {
+  display: flex;
+  gap: 17px;
+  list-style: none;
+}
+
+.media_ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 17px;
+  list-style: none;
+}
+
+/* Vector */
+
+.twitter {
+  position: absolute;
+  left: 6.4%;
+  right: 100.27%;
+  top: 90.81%;
+  bottom: 18.88%;
+}
+
+/* Vector */
+
+.linkedin {
+  position: absolute;
+  left: 19.74%;
+  right: 77.87%;
+  top: 92.32%;
+  bottom: 18.87%;
+}
+
+/* Vector */
+
+.linked {
+  position: absolute;
+  left: 17.8%;
+  right: 81.87%;
+  top: 92.85%;
+  bottom: 18.87%;
+}
+
+/* Vector */
+
+.medium {
+  position: absolute;
+  left: 27.47%;
+  right: 67.2%;
+  top: 92.15%;
+  bottom: 19.21%;
+}
+
+/* Vector */
+
+.github {
+  position: absolute;
+  left: 38.13%;
+  right: 57.07%;
+  top: 91.81%;
+  bottom: 18.87%;
+}
+
+/* Vector */
+
+.angellist {
+  position: absolute;
+  left: 48%;
+  right: 48.22%;
+  top: 91.81%;
+  bottom: 18.87%;
+}
+
+/* msedia screen size */
+
+@media screen and (max-width: 375px) {
+  body {
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+}
