@@ -27,7 +27,7 @@ body {
   margin-left: 5em;
 }
 
-/* Icons for ex Time, Wifi and cellular*/
+/* Icons for ex Time, Wifi and cellular */
 
 .time_icon {
   background-image: url("Time.png");
@@ -40,7 +40,8 @@ body {
   line-height: 16px;
   text-align: center;
 }
-/*Cellular_Connection-path */
+
+/* Cellular_Connection-path */
 
 .cellular_con {
   position: absolute;
@@ -50,6 +51,7 @@ body {
   top: 20px;
   background: #000;
 }
+
 /* Wifi-path */
 .wifi_path {
   position: absolute;
@@ -59,6 +61,7 @@ body {
   top: 24.92px;
   background: #000;
 }
+
 /* Capacity */
 
 .capacity {
@@ -80,6 +83,7 @@ body {
   right: 35px;
   top: 35px;
 }
+
 /* Vector */
 
 .humb {
@@ -90,6 +94,7 @@ body {
   bottom: 70.83%;
   border: 2px solid #067bf8;
 }
+
 /* Vector */
 
 .humb1 {
@@ -100,6 +105,7 @@ body {
   bottom: 50%;
   border: 2px solid #077efd;
 }
+
 /* Vector */
 
 .humb2 {
@@ -111,7 +117,7 @@ body {
   border: 2px solid #057af8;
 }
 
-/* Logo*/
+/* Logo */
 
 .logo {
   top: 40px;
@@ -195,6 +201,7 @@ body {
   flex-wrap: wrap;
   padding-left: 1em;
 }
+
 /* Ellipse 3 */
 
 .ellipse3 {
@@ -205,6 +212,7 @@ body {
   left: 400px;
   top: 152.24px;
 }
+
 /* Ellipse 11 */
 
 .ellipse11 {
@@ -217,7 +225,9 @@ body {
   top: 115.47px;
   transform: rotate(-156.88deg);
 }
+
 /* Ellipse 4 */
+
 /* Primary/B400 */
 
 .ellipse4 {
@@ -229,6 +239,7 @@ body {
   left: 237px;
   top: 657.1px;
 }
+
 /* Rectangle 5 */
 
 .Rectangle5 {
@@ -244,6 +255,7 @@ body {
 
   transform: rotate(23.34deg);
 }
+
 /* Rectangle 6 */
 
 .Rectangle6 {
@@ -258,6 +270,7 @@ body {
 
   transform: rotate(-46.14deg);
 }
+
 /* Rectangle 7 */
 
 .Rectangle7 {
@@ -273,6 +286,7 @@ body {
 
   transform: matrix(0.76, 0.65, 0.65, -0.76, 0, 0);
 }
+
 /* Ellipse 5 */
 
 .ellipse5 {
@@ -288,6 +302,7 @@ body {
 
   transform: rotate(52.97deg);
 }
+
 /* Ellipse 12 */
 
 .ellipse12 {
@@ -300,6 +315,7 @@ body {
   top: 546.69px;
   transform: rotate(-176.08deg);
 }
+
 /* Ellipse 13 */
 
 .ellipse13 {
@@ -311,6 +327,7 @@ body {
   background: #ebebff;
   transform: rotate(69.41deg);
 }
+
 /* Rectangle 4 */
 
 .Rectangle4 {
@@ -326,6 +343,7 @@ body {
 
   transform: rotate(-30deg);
 }
+
 /* Ellipse 8 */
 
 .ellipse8 {
@@ -344,6 +362,7 @@ body {
   border: 1px solid #cbcdff;
   box-sizing: border-box;
 }
+
 /* Ellipse 15 */
 
 .ellipse15 {
@@ -367,6 +386,7 @@ body {
   right: 80.56%;
   top: 300px;
 }
+
 /* Vector */
 
 .twitter {
@@ -376,6 +396,7 @@ body {
   top: 77.81%;
   bottom: 18.88%;
 }
+
 /* Vector */
 
 .linkedin {
@@ -385,6 +406,7 @@ body {
   top: 78.85%;
   bottom: 18.87%;
 }
+
 /* Vector */
 
 .linked {
@@ -394,6 +416,7 @@ body {
   top: 78.32%;
   bottom: 18.87%;
 }
+
 /* Vector */
 
 .medium {
@@ -403,6 +426,7 @@ body {
   top: 78.15%;
   bottom: 19.21%;
 }
+
 /* Vector */
 
 .github {
@@ -412,6 +436,7 @@ body {
   top: 77.81%;
   bottom: 18.87%;
 }
+
 /* Vector */
 
 .angellist {
@@ -421,7 +446,8 @@ body {
   top: 77.81%;
   bottom: 18.87%;
 }
-/* msedia screen size*/
+
+/* msedia screen size */
 
 @media screen and (max-width: 375px) {
   body {
