@@ -482,3 +482,213 @@ body {
     align-items: center;
   }
 }
+
+.flex-botu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  position: static;
+  width: 162px;
+  height: 48px;
+  left: 0px;
+  top: calc(50% - 48px / 3 + 180.5px);
+
+  /* Primary/B400 */
+
+  border: 1px solid #6070ff;
+  box-sizing: border-box;
+  border-radius: 8px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  margin: 60px 20px;
+}
+
+.resume {
+  /* Get my resume */
+
+  position: static;
+  width: 138px;
+  height: 24px;
+  left: 12px;
+  top: 12px;
+
+  /* Button /Normal */
+
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  /* identical to box height, or 141% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  /* Primary/B500 */
+
+  color: #396df2;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+  margin: 1px 10px;
+}
+
+.border-lang {
+  position: flex;
+  height: 1em;
+  right: 78px;
+  margin-left: 20px;
+  top: calc(50% - 24px / 2);
+
+  /* Body / 1 - Bolder */
+
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height, or 120% */
+
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+  list-style: none;
+}
+
+.lang-img {
+  display: grid;
+  grid-template-rows: 20% 20% 20%;
+  grid-gap: 2px;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-top: 30px;
+  list-style: none;
+}
+
+.js-icon {
+  position: static;
+  width: 303px;
+  height: 66.72px;
+  left: 12px;
+  top: 10px;
+
+  /* Neutrals/N10 */
+
+  background: #f7f7f9;
+  border-radius: 8px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+  margin: 12px 1px;
+}
+
+.html-icon {
+  /* Frame 10 */
+
+  position: static;
+  width: 303px;
+  height: 66.72px;
+  left: 12px;
+  top: 90.72px;
+
+  /* Neutrals/N10 */
+
+  background: #f7f7f9;
+  border-radius: 8px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 12px 0px;
+}
+
+.css-icon {
+  /* Frame 11 */
+
+  position: static;
+  width: 303px;
+  height: 66.72px;
+  left: 12px;
+  top: 169.43px;
+
+  /* Neutrals/N10 */
+
+  background: #f7f7f9;
+  border-radius: 8px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin: 12px 0px;
+}
+
+.fr-work {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+  margin-left: 1em;
+  list-style: none;
+}
+
+.border-frem {
+  /* Frameworks */
+
+  position: static;
+  height: 24px;
+  left: 12px;
+  right: 78px;
+
+  /* Body / 1 - Bolder */
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height, or 120% */
+
+  align-items: center;
+
+  color: #000;
+}
+
+.border-skill {
+  /* Skills */
+  position: static;
+  height: 24px;
+  left: 12px;
+  right: 78px;
+
+  /* Body / 1 - Bolder */
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height, or 120% */
+
+  align-items: center;
+
+  color: #000;
+}
