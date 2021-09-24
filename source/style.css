@@ -488,7 +488,6 @@ body {
   flex-direction: row;
   align-items: center;
   padding: 12px;
-  position: static;
   width: 162px;
   height: 48px;
   left: 1px;
@@ -545,7 +544,6 @@ body {
 }
 
 .border-lang {
-  position: flex;
   height: 1em;
   right: 78px;
   margin-left: 20px;
@@ -563,7 +561,6 @@ body {
 
   display: flex;
   align-items: center;
-
   color: #000;
   list-style: none;
 }
@@ -653,8 +650,8 @@ body {
 
   flex: none;
   order: 2;
-  flex-grow: 0;
-  margin: 12px 0px;
+  flex-grow: 1;
+  margin: 12px 1px;
 }
 
 .fr-work {
@@ -674,9 +671,10 @@ body {
   left: 12px;
   right: 78px;
   margin-top: 220px;
+
   /* Body / 1 - Bolder */
 
-  font-family: Poppins;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -685,7 +683,6 @@ body {
   /* identical to box height, or 120% */
 
   align-items: center;
-
   color: #000;
 }
 
@@ -699,7 +696,7 @@ body {
 
   /* Body / 1 - Bolder */
 
-  font-family: Poppins;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -708,6 +705,5 @@ body {
   /* identical to box height, or 120% */
 
   align-items: center;
-
   color: #000;
 }
