@@ -491,7 +491,7 @@ body {
   position: static;
   width: 162px;
   height: 48px;
-  left: 0px;
+  left: 1px;
   top: calc(50% - 48px / 3 + 180.5px);
 
   /* Primary/B400 */
@@ -504,7 +504,7 @@ body {
 
   flex: none;
   order: 3;
-  flex-grow: 0;
+  flex-grow: 1;
   margin: 60px 20px;
 }
 
@@ -524,6 +524,7 @@ body {
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
+
   /* identical to box height, or 141% */
 
   display: flex;
@@ -557,6 +558,7 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
+
   /* identical to box height, or 120% */
 
   display: flex;
@@ -679,6 +681,7 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
+
   /* identical to box height, or 120% */
 
   align-items: center;
@@ -701,6 +704,7 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
+
   /* identical to box height, or 120% */
 
   align-items: center;
