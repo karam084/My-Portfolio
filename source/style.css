@@ -585,6 +585,7 @@ body {
   order: 1;
   flex-grow: 1;
   margin: 12px 2px;
+  list-style: none;
 }
 
 .js-icon {
@@ -717,7 +718,6 @@ body {
   flex-direction: column;
   align-items: center;
   padding: 16px;
-
   position: static;
   width: 327px;
   height: 552px;
@@ -726,7 +726,8 @@ body {
 
   /* Neutrals/N0 */
 
-  background: #ffffff;
+  background: #fff;
+
   /* Neutrals/N40 */
 
   border: 1px solid #dfe1e6;
@@ -740,6 +741,7 @@ body {
   flex-grow: 1;
   margin: 88px 0.1px;
 }
+
 .snapshoot-img {
   /* Snapshoot Portfolio */
 
@@ -790,6 +792,7 @@ body {
   justify-content: center;
   flex-wrap: nowrap;
 }
+
 .conopy {
   /* Text */
 
@@ -806,6 +809,7 @@ body {
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
+
   /* identical to box height, or 123% */
 
   /* Neutrals/N600 */
@@ -836,6 +840,7 @@ body {
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
+
   /* identical to box height, or 123% */
 
   /* Neutrals/N100 */
@@ -864,6 +869,7 @@ body {
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
+
   /* identical to box height, or 123% */
 
   /* Neutrals/N100 */
@@ -899,6 +905,7 @@ p {
   font-weight: normal;
   font-size: 15px;
   line-height: 24px;
+
   /* or 160% */
 
   /* Neutrals/N600 */
@@ -942,7 +949,6 @@ p {
   flex-direction: row;
   align-items: center;
   padding: 4px 12px;
-
   position: static;
   width: 53px;
   height: 24px;
@@ -955,9 +961,8 @@ p {
   /* Inside Auto Layout */
 
   flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin: 0px 8px;
+  order: 1;
+  margin: 1px 8px;
 }
 
 .css-st {
@@ -969,12 +974,11 @@ p {
   flex-direction: row;
   align-items: center;
   padding: 4px 12px;
-
   position: static;
   width: 45px;
   height: 24px;
   left: 61px;
-  top: 0px;
+  top: 1px;
 
   /* Primary/B50 */
 
@@ -996,7 +1000,6 @@ p {
   flex-direction: row;
   align-items: center;
   padding: 4px 12px;
-
   position: static;
   width: 89px;
   height: 24px;
@@ -1042,6 +1045,7 @@ p {
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
+
   /* identical to box height, or 141% */
 
   display: flex;
