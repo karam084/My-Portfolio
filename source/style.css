@@ -951,15 +951,11 @@ p {
 
 .flex-botu {
   background-color: white;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 12px;
-  width: 162px;
-  height: 48px;
-  left: 1px;
-  top: calc(50% - 48px / 3 + 180.5px);
-
+  position: static;
+  width: 130px;
+  height: 44px;
+  left: 12px;
+  top: 12px;
   /* Primary/B400 */
 
   border: 1px solid #6070ff;
@@ -972,42 +968,7 @@ p {
   order: 3;
   flex-grow: 1;
   margin: 60px 20px;
-}
-
-.resume {
-  /* Get my resume */
-
-  position: static;
-  width: 138px;
-  height: 24px;
-  left: 12px;
-  top: 12px;
-
-  /* Button /Normal */
-
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 24px;
-
-  /* identical to box height, or 141% */
-
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.03em;
-
-  /* Primary/B500 */
-
   color: #396df2;
-
-  /* Inside Auto Layout */
-
-  flex: none;
-  order: 1;
-  flex-grow: 1;
-  margin: 1px 10px;
 }
 
 .border-lang {
