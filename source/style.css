@@ -1355,9 +1355,9 @@ p {
 
 .form-bui {
   display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
   flex-flow: column;
+  flex-wrap: nowrap;
+  flex-direction: column;
   position: absolute;
   width: 340px;
   height: 779px;
