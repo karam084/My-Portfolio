@@ -1647,3 +1647,19 @@ textarea[name="message"] {
   background: #fff;
   transform: rotate(48.94deg);
 }
+
+.shape {
+  /* Shape */
+
+  position: absolute;
+  width: 134px;
+  height: 5px;
+  top: 358em;
+  left: calc(50% - 134px / 2 - 0.5px);
+  bottom: 8px;
+
+  /* Mono/Black */
+
+  background: #0d151e;
+  border-radius: 10px;
+}
