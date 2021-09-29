@@ -1352,3 +1352,220 @@ p {
 .see-pr3:hover {
   color: blueviolet;
 }
+
+.form-bui {
+  position: absolute;
+  width: 340px;
+  height: 779px;
+  left: 2em;
+  top: 310em;
+
+  /* Primary/B400 */
+
+  background: #6070ff;
+  border-top-left-radius: 90px;
+}
+
+.my-contact {
+  /* Primary Text */
+
+  display: flex;
+  width: 300px;
+  height: 779pxpx;
+  padding-top: 2em;
+
+  /* Header / 2 */
+
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  /* or 130% */
+
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+
+  /* Neutrals/N0 */
+
+  color: #fff;
+}
+
+.my_info {
+  /* Primary Text */
+
+  display: flex;
+  width: 300px;
+  height: 779px;
+  padding-top: 0.5em;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 27px;
+  justify-content: center;
+
+  /* or 140% */
+
+  text-align: center;
+
+  /* Primary/B50 */
+
+  color: #ebebff;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #000;
+}
+
+#name {
+  position: absolute;
+  display: flex;
+  width: 23em;
+  left: 16px;
+  right: 20px;
+  height: 40px;
+  top: 25em;
+  text-align: left;
+  align-items: center;
+
+  /* Mono/White */
+
+  background: #ffffff;
+  /* Base/100 */
+
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+}
+
+input[type="email"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #000;
+}
+
+#email {
+  position: absolute;
+  display: flex;
+  width: 23em;
+  left: 16px;
+  right: 20px;
+  height: 40px;
+  top: 30em;
+  text-align: left;
+  align-items: center;
+
+  /* Mono/White */
+
+  background: #ffffff;
+  /* Base/100 */
+
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+}
+
+textarea[name="message"] {
+  /* Container */
+
+  position: absolute;
+  margin: 8px 0;
+  width: 20em;
+  height: 160px;
+  top: 31em;
+
+  /* Mono/White */
+
+  background: #ffffff;
+  /* Base/100 */
+
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+}
+
+#message-form {
+  position: absolute;
+  left: 16px;
+
+  /* Input /Normal */
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  /* or 160% */
+
+  /* Neutrals/N60 */
+
+  color: #b3bac5;
+}
+
+.get-touch {
+  /* Auto Layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 16px;
+  position: absolute;
+  width: 140px;
+  height: 48px;
+  left: 24px;
+  top: 41em;
+  list-style: none;
+
+  /* Neutrals/N0 */
+
+  background: #ffffff;
+  border-radius: 8px;
+}
+
+.get-tou {
+  position: static;
+  width: 108px;
+  height: 24px;
+  left: 16px;
+  top: 12px;
+
+  /* Button /Normal */
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  /* identical to box height, or 141% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  /* Primary/B400 */
+
+  color: #6070ff;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 0px;
+}
+
+.get-tou:hover {
+  color: blueviolet;
+}
