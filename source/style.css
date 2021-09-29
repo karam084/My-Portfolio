@@ -1371,7 +1371,7 @@ p {
 
   display: flex;
   width: 300px;
-  height: 779pxpx;
+  height: 150px;
   padding-top: 2em;
 
   /* Header / 2 */
@@ -1381,6 +1381,7 @@ p {
   font-weight: bold;
   font-size: 40px;
   line-height: 52px;
+
   /* or 130% */
 
   align-items: center;
@@ -1439,7 +1440,8 @@ input[type="text"] {
 
   /* Mono/White */
 
-  background: #ffffff;
+  background: #fff;
+
   /* Base/100 */
 
   border: 1px solid #cfd8dc;
@@ -1470,7 +1472,8 @@ input[type="email"] {
 
   /* Mono/White */
 
-  background: #ffffff;
+  background: #fff;
+
   /* Base/100 */
 
   border: 1px solid #cfd8dc;
@@ -1488,7 +1491,8 @@ textarea[name="message"] {
 
   /* Mono/White */
 
-  background: #ffffff;
+  background: #fff;
+
   /* Base/100 */
 
   border: 1px solid #cfd8dc;
@@ -1501,11 +1505,12 @@ textarea[name="message"] {
 
   /* Input /Normal */
 
-  font-family: Poppins;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
   line-height: 24px;
+
   /* or 160% */
 
   /* Neutrals/N60 */
@@ -1529,7 +1534,7 @@ textarea[name="message"] {
 
   /* Neutrals/N0 */
 
-  background: #ffffff;
+  background: #fff;
   border-radius: 8px;
 }
 
@@ -1542,11 +1547,12 @@ textarea[name="message"] {
 
   /* Button /Normal */
 
-  font-family: Poppins;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
+
   /* identical to box height, or 141% */
 
   display: flex;
@@ -1561,11 +1567,83 @@ textarea[name="message"] {
   /* Inside Auto Layout */
 
   flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin: 0px 0px;
+  order: 1;
+  flex-grow: 1;
+  margin: 0.5px 0.5px;
 }
 
 .get-tou:hover {
   color: blueviolet;
+}
+
+.form-ico {
+  display: flex;
+  width: 375px;
+  height: 1263px;
+  left: 2em;
+
+  /* Neutrals/N0 */
+
+  background: #fff;
+}
+
+.form3 {
+  /* form3 */
+
+  background-image: url("form3.png");
+  position: absolute;
+  width: 65px;
+  height: 70px;
+  left: 330px;
+  top: 312em;
+}
+
+.recform4 {
+  /* Rectangle 4 */
+
+  position: absolute;
+  width: 74.7px;
+  height: 17.21px;
+  left: 305px;
+  top: 311.5em;
+
+  /* Primary/B300 */
+
+  background: #7f8cff;
+  transform: rotate(-23.18deg);
+}
+
+.form12 {
+  /* Ellipse 12 */
+
+  position: absolute;
+  width: 21px;
+  height: 21px;
+  left: 170px;
+  top: 313em;
+  background: #7f8cff;
+}
+
+.Recform7 {
+  /* Rectangle 7 */
+
+  position: absolute;
+  width: 76.17px;
+  height: 13.63px;
+  left: 258.8px;
+  top: 351em;
+  background: #7f8cff;
+  transform: matrix(0.8, 0.6, 0.6, -0.8, 0, 0);
+}
+
+.form5 {
+  /* Ellipse 5 */
+
+  position: absolute;
+  width: 30.11px;
+  height: 31.11px;
+  left: 276.74px;
+  top: 352em;
+  background: #fff;
+  transform: rotate(48.94deg);
 }
