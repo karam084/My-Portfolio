@@ -1354,6 +1354,10 @@ p {
 }
 
 .form-bui {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  flex-flow: column;
   position: absolute;
   width: 340px;
   height: 779px;
@@ -1518,7 +1522,7 @@ textarea[name="message"] {
   color: #b3bac5;
 }
 
-.get-touch {
+input[type="submit"] {
   /* Auto Layout */
 
   display: flex;
@@ -1528,9 +1532,18 @@ textarea[name="message"] {
   position: absolute;
   width: 140px;
   height: 48px;
-  left: 24px;
-  top: 41em;
+  left: 15px;
+  top: 38.5em;
   list-style: none;
+  color: #6070ff;
+  text-align: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
 
   /* Neutrals/N0 */
 
@@ -1538,41 +1551,7 @@ textarea[name="message"] {
   border-radius: 8px;
 }
 
-.get-tou {
-  position: static;
-  width: 108px;
-  height: 24px;
-  left: 16px;
-  top: 12px;
-
-  /* Button /Normal */
-
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 24px;
-
-  /* identical to box height, or 141% */
-
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.03em;
-
-  /* Primary/B400 */
-
-  color: #6070ff;
-
-  /* Inside Auto Layout */
-
-  flex: none;
-  order: 1;
-  flex-grow: 1;
-  margin: 0.5px 0.5px;
-}
-
-.get-tou:hover {
+input[type="submit"]:hover {
   color: blueviolet;
 }
 
