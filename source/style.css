@@ -857,9 +857,6 @@ p {
 .see-pr:hover {
   width: 20px;
   height: 20px;
-}
-
-.see-pr:hover {
   color: blueviolet;
 }
 
