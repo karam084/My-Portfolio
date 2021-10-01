@@ -851,6 +851,12 @@ p {
 
   color: #396df2;
   list-style: none;
+  transition: width 2s, height 4s;
+}
+
+.see-pr:hover {
+  width: 20px;
+  height: 20px;
 }
 
 .see-pr:hover {
@@ -867,6 +873,13 @@ p {
   top: 20px;
   background: url(snapshoot-2.png);
   border-radius: 8px;
+  transition: width 2s, height 2s, transform 2s;
+}
+
+div:hover {
+  width: 300px;
+  height: 300px;
+  transform: rotate(180deg);
 }
 
 .Multi-Pos {
