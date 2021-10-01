@@ -696,6 +696,21 @@ p {
   flex: none;
   order: 1;
   margin: 12px 1px;
+  animation-duration: 3s;
+  animation-name: slidein;
+
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 
 .butto {
@@ -851,9 +866,12 @@ p {
 
   color: #396df2;
   list-style: none;
+  transition: width 2s, height 4s;
 }
 
 .see-pr:hover {
+  width: 20px;
+  height: 20px;
   color: blueviolet;
 }
 
@@ -867,6 +885,13 @@ p {
   top: 20px;
   background: url(snapshoot-2.png);
   border-radius: 8px;
+  transition: width 2s, height 2s, transform 2s;
+}
+
+div:hover {
+  width: 300px;
+  height: 300px;
+  transform: rotate(180deg);
 }
 
 .Multi-Pos {
